@@ -32,7 +32,7 @@ function App() {
   return (
     <>
    <Routes>
-    <Route path="/" element={<HomePage/>}/>  {/*home page*/}
+    <Route path="https://damianshop.vercel.app/" element={<HomePage/>}/>  {/*home page*/}
     <Route path="/product/:slug" element={<ProductDetails/>}/>  {/*home page*/}
     <Route path="/categories" element={<Categories/>}/>  {/*home page*/}
     <Route path="/cart" element={<CartPage/>}/>  {/*home page*/}
